@@ -13,6 +13,6 @@ public class Bet : AuditableEntity
     public BetPick Pick { get; set; }
     public BetStatus Status { get; set; } = BetStatus.Pending;
     public int MatchId { get; set; }
-    public Match Match { get; set; } = null!;
+    public Match Match { get; set; } = null!; 
     // Module 7 will add:  public string UserId  +  AppUser User 
 }
